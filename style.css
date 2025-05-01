@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: black;
+    text-align: center;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+p {
+    font-size: large;
+}
+
+h1 {
+    color: navy;
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: navy;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+/* Image Styling */
+figure {
+    margin: 25px auto;
+    text-align: center;
+}
+
+img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+figcaption {
+    font-size: large;
+    color: gray;
+    margin-top: 8px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: large;
+}
+
+th {
+    background: navy;
+    color: white;
+    text-transform: uppercase;
+}
+
+td {
+    background: white;
+}
+
+/* Links Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 12px 0;
+    font-size: large;
+}
+
+a {
+    color: navy;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: navy;
+}
